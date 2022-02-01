@@ -1,0 +1,33 @@
+.header-container {
+  background-color: #303030;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative fixed;
+  top: 0;
+  .logo {
+    h1 {
+      color: #ffff;
+    }
+  }
+ 
+  .card-btn {
+    color: #ffff;
+    font-size: 25px;
+  }
+}
+
+@media screen and(max-width:768px) {
+    
+    }
+
+
+@media screen and(max-width:576px) {
+    .header-container {
+        justify-content: space-around;
+        .logo {
+          font-size: 8px;  
+        }
+    }
+}
