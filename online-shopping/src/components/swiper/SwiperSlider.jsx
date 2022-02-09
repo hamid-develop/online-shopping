@@ -33,16 +33,16 @@ const SwiperSlider = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={fisrtBanner} alt="first" style={{ width: "100%" }} />
+          <img src={fisrtBanner} alt="first" style={{ width: "100%", height:"100%" }} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={secondBanner} alt="second" style={{ width: "100%" }} />
+          <img src={secondBanner} alt="second" style={{ width: "100%", height:"100%" }} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={thirthBanner} alt="thirth" style={{ width: "100%" }} />
+          <img src={thirthBanner} alt="thirth" style={{ width: "100%", height:"100%" }} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={fourthBanner} alt="fourth" style={{ width: "100%" }} />
+          <img src={fourthBanner} alt="fourth" style={{ width: "100%", height:"100%" }} />
         </SwiperSlide>
       </Swiper>
     </>

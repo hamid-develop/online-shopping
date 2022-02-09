@@ -21,9 +21,8 @@ const Category = () => {
   return (
     <div className="category">
       {data?.map((item) => (
-          <div>
-            
-            <Link to={`/category/${item}`}>
+        <div>
+          <Link to={`/category/${item}`}>
             <h3 className="title">{item}</h3>
           </Link>
         </div>

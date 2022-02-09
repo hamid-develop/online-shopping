@@ -1,17 +1,17 @@
 .category {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 10px;
-height: 60px;    
-   .title {
-       font-family: inherit !important;
-       color: rgb(94, 94, 94);
-       cursor: pointer;
-       transition: .5s;
-   }
-   .title:hover {
-       border-bottom: 1px solid rgb(94, 94, 94);
-       transform: translateY(-50%);
-   }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(83, 83, 83);
+  .title {
+    font-family: inherit !important;
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .title:hover {
+    border-bottom: 1px solid rgb(238, 238, 238);
+    transform: translateY(-50%);
+  }
 }

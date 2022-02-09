@@ -1,21 +1,22 @@
-import './card.scss'
-import { Card } from "antd";
+import "./card.scss";
+import { Card, Row, Col } from "antd";
 
 const ProductCard = ({ item }) => {
   const { Meta } = Card;
 
   return (
     <div className="card">
-      <Card
-        hoverable
-        style={{ width: 240 }}
-        cover={<img alt={`${item.title}`} src={item.image}
-        width='100'
-        height='200'
-        />}
-      >
-        <Meta title={item.title} />
-      </Card>
+      <Row>
+        <Col xs={24} md={8} lg={6}>
+          <Card
+            hoverable
+            style={{ width: 190, height: 290, padding: 20 }}
+            cover={<img alt={`${item.title}`} src={item.image} />}
+          >
+            <Meta title={item.title} />
+          </Card>
+        </Col>
+      </Row>
     </div>
   );
 };
